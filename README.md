@@ -17,3 +17,45 @@ PCB:
 ![Image of PCB rendering](cbpi-hat.png)
 Schematic:
 ![Schematic](schematic.png)
+
+## PIN configuration
+
+### Digital outputs
+
+Digital outputs are counted starting on the most left
+
+| Output # | GPIO |
+|----------|------|
+| 1 | 25 |
+| 2 |  8 |
+| 3 |  7 |
+| 4 | 12 |
+| 5 | 16 |
+| 6 | 20 |
+| 7 | 21 |
+
+
+### MAX31865 modules
+
+The MAX31864 modules are connected via SPI and each have a different CS-Pin.
+
+| Modules # | GPIO CS |
+|-----------|---------|
+| 1 | 17 |
+| 2 | 27 |
+| 3 | 22 |
+| 4 |  5 |
+| 5 |  6 |
+
+### OneWire
+
+The OneWire data line is connected to `GPIO 4`.
+
+### RealTime Clock
+
+The RTC (DS3231) is connected via I2C and should be usable by adding
+```
+dtparam=i2c_arm=on
+dtoverlay=i2c-rtc,ds3231
+```
+to your config.txt
