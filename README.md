@@ -13,5 +13,7 @@ This created with [EasyEDA](https://easyeda.com/) and optimized for production v
 * One Wire connection for additional sensors
 * Can operate on 12-24V, digital outputs operate directly on input voltage
 
-
+PCB:
 ![Image of PCB rendering](cbpi-hat.png)
+Schematic:
+![Schematic](schematic.png)
