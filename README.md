@@ -6,7 +6,9 @@ This created with [EasyEDA](https://easyeda.com/) and optimized for production v
 ## Features
 
 * Slots for up to 5 MAX31864 modules for PT100/PT1000 measurements
-* 7 digital outputs with up to 1 amp of output power with flyback diodes
+* 7 digital outputs with up to 1 amp of output power
+* All 7 outputs have flyback diodes to drive inductive loads like solenoids
+* All 7 outputs have resettable fuses for extra protection
 * RTC so the Raspberry Pi doesn't loose its time in offline installations
 * QWIIC connector to hookup additional sensors and actors following the 
   SparkFun QWIIC specification
