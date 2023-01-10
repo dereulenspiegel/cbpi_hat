@@ -15,6 +15,9 @@ This created with [EasyEDA](https://easyeda.com/) and optimized for production v
 * One Wire connection for additional sensors
 * Can operate on 12-24V, digital outputs operate directly on input voltage
 
+Please note that the digital outputs are inverted in logic due to the push pull stage, but
+CraftBeerPi supports inverting GPIO actors.
+
 PCB:
 ![Image of PCB rendering](cbpi-hat.png)
 Schematic:
