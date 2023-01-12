@@ -1,18 +1,18 @@
 # CraftBeerPi Hat
 This is a Raspberry Pi hat meant for use with [CraftBeerPi](https://github.com/craftbeerpi/craftbeerpi4).
-This created with [EasyEDA](https://easyeda.com/) and optimized for production via 
+It's created with [EasyEDA](https://easyeda.com/) and optimized for production via 
 [JLCPCB](https://jlcpcb.com/).
 
 ## Features
 
-* Slots for up to 5 MAX31864 modules for PT100/PT1000 measurements
+* Slots for up to 5 MAX31865 modules for PT100/PT1000 measurements
 * 7 digital outputs with up to 1 amp of output power
 * All 7 outputs have flyback diodes to drive inductive loads like solenoids
 * All 7 outputs have resettable fuses for extra protection
 * RTC so the Raspberry Pi doesn't loose its time in offline installations
 * QWIIC connector to hookup additional sensors and actors following the 
   SparkFun QWIIC specification
-* One Wire connection for additional sensors
+* OneWire connection for additional sensors
 * Can operate on 12-24V, digital outputs operate directly on input voltage
 
 Please note that the digital outputs are inverted in logic due to the push pull stage, but
@@ -26,8 +26,10 @@ side of a connector is always the negative side and the right side of a connecto
 the positive side!
 
 PCB:
+
 ![Image of PCB rendering](cbpi-hat.png)
 Schematic:
+
 ![Schematic](schematic.png)
 
 ## PIN configuration
@@ -36,7 +38,7 @@ Schematic:
 
 Digital outputs are counted starting on the most left. Outputs 2,3 and 7 are marked on the edge of
 the PCBs upper layer. On the bottom layer every output is numbered and the polarity marked. On the
-upper layer polarity markings are only next to the outer most ports on each side. But polaarity is
+upper layer polarity markings are only next to the outer most ports on each side. But polarity is
 always left side negative, right side positive.
 
 | Output # | GPIO |
@@ -54,8 +56,8 @@ always left side negative, right side positive.
 
 The MAX31864 modules are connected via SPI and each have a different CS-Pin. Modules
 1,2,3,5 are mounted with the upper side facing left (towards the power connector and the SD-card
-slot of the Raspberry Pi). Module 5 is flipped 180°. Every module connector has the first two and two
-last pins marked with the same markings as the module to ensure the correct orientation.
+slot of the Raspberry Pi). Module 5 is flipped 180°. Every module connector has the first two and
+last two pins marked with the same markings as the module to ensure the correct orientation.
 
 | Modules # | GPIO CS |
 |-----------|---------|
