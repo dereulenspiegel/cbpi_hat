@@ -14,6 +14,7 @@ It's created with [EasyEDA](https://easyeda.com/) and optimized for production v
   SparkFun QWIIC specification
 * OneWire connection for additional sensors
 * Can operate on 12-24V, digital outputs operate directly on input voltage
+* Reverse voltage protection (but please be still be careful)
 
 Please note that the digital outputs are inverted in logic due to the push pull stage, but
 CraftBeerPi supports inverting GPIO actors.
