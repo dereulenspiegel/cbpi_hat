@@ -18,6 +18,13 @@ This created with [EasyEDA](https://easyeda.com/) and optimized for production v
 Please note that the digital outputs are inverted in logic due to the push pull stage, but
 CraftBeerPi supports inverting GPIO actors.
 
+# Polarity of connectors!!!
+
+This board is powered by 12-24V and provides some reverse polarity protection. But still
+please be careful when wiring up the board. Looking at the front of a connector the left
+side of a connector is always the negative side and the right side of a connector is always
+the positive side!
+
 PCB:
 ![Image of PCB rendering](cbpi-hat.png)
 Schematic:
@@ -27,7 +34,10 @@ Schematic:
 
 ### Digital outputs
 
-Digital outputs are counted starting on the most left
+Digital outputs are counted starting on the most left. Outputs 2,3 and 7 are marked on the edge of
+the PCBs upper layer. On the bottom layer every output is numbered and the polarity marked. On the
+upper layer polarity markings are only next to the outer most ports on each side. But polaarity is
+always left side negative, right side positive.
 
 | Output # | GPIO |
 |----------|------|
@@ -42,7 +52,10 @@ Digital outputs are counted starting on the most left
 
 ### MAX31865 modules
 
-The MAX31864 modules are connected via SPI and each have a different CS-Pin.
+The MAX31864 modules are connected via SPI and each have a different CS-Pin. Modules
+1,2,3,5 are mounted with the upper side facing left (towards the power connector and the SD-card
+slot of the Raspberry Pi). Module 5 is flipped 180°. Every module connector has the first two and two
+last pins marked with the same markings as the module to ensure the correct orientation.
 
 | Modules # | GPIO CS |
 |-----------|---------|
@@ -54,7 +67,9 @@ The MAX31864 modules are connected via SPI and each have a different CS-Pin.
 
 ### OneWire
 
-The OneWire data line is connected to `GPIO 4`.
+The OneWire data line is connected to `GPIO 4`. The pins on the connector are marked behind the connector
+on the top side of the PCB. They are, from left to right `VCC` - `DAT` - `GND`. A 4.7k pull up is
+already provided on the board.
 
 ### RealTime Clock
 
