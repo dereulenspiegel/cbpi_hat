@@ -29,6 +29,7 @@ the positive side!
 PCB:
 
 ![Image of PCB rendering](cbpi-hat.png)
+
 Schematic:
 
 ![Schematic](schematic.png)
@@ -55,7 +56,7 @@ always left side negative, right side positive.
 
 ### MAX31865 modules
 
-The MAX31864 modules are connected via SPI and each have a different CS-Pin. Modules
+The MAX31865 modules are connected via SPI and each have a different CS-Pin. Modules
 1,2,3,5 are mounted with the upper side facing left (towards the power connector and the SD-card
 slot of the Raspberry Pi). Module 5 is flipped 180°. Every module connector has the first two and
 last two pins marked with the same markings as the module to ensure the correct orientation.
