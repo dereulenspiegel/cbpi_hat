@@ -74,6 +74,11 @@ last two pins marked with the same markings as the module to ensure the correct 
 The OneWire data line is connected to `GPIO 4`. The pins on the connector are marked behind the connector
 on the top side of the PCB. They are, from left to right `VCC` - `DAT` - `GND`. A 4.7k pull up is
 already provided on the board.
+To enable OneWire support on a Raspberry Pi you need to add
+```
+dtoverlay=w1-gpio,gpiopin=4
+```
+to your config.txt
 
 ### RealTime Clock
 
