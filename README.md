@@ -3,6 +3,12 @@ This is a Raspberry Pi hat meant for use with [CraftBeerPi](https://github.com/c
 It's created with [EasyEDA](https://easyeda.com/) and optimized for production via 
 [JLCPCB](https://jlcpcb.com/).
 
+## Development
+
+Currently this project is designed with [EasyEDA](https://easyeda.com/). You can find
+all necessary files in the folder `easyeda`. When modifying this project please
+respect the CERN-OHL-S license used in this project.
+
 ## Features
 
 * Slots for up to 5 MAX31865 modules for PT100/PT1000 measurements
