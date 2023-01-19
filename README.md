@@ -3,6 +3,11 @@ This is a Raspberry Pi hat meant for use with [CraftBeerPi](https://github.com/c
 It's created with [EasyEDA](https://easyeda.com/) and optimized for production via 
 [JLCPCB](https://jlcpcb.com/).
 
+This project is [certified](https://certification.oshwa.org/de000132.html) as open source
+hardware by the [OSHWA](https://www.oshwa.org/) under the UID DE000132.
+
+![OSHWA certifcation logo](oshw-certification.png)
+
 ## Development
 
 Currently this project is designed with [EasyEDA](https://easyeda.com/). You can find
