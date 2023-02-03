@@ -99,3 +99,10 @@ dtparam=i2c_arm=on
 dtoverlay=i2c-rtc,ds3231
 ```
 to your config.txt
+
+## Known Caveats
+
+### Revision 1.0
+
+* On revision 1.0 outputs 2 and 3 are mapped to chip enable pins of SPI0. Users need to disable CE pins on SPI0
+* On revision 1.0 outputs are not in the desired off state during and directly after boot
