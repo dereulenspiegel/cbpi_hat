@@ -106,3 +106,26 @@ to your config.txt
 
 * On revision 1.0 outputs 2 and 3 are mapped to chip enable pins of SPI0. Users need to disable CE pins on SPI0
 * On revision 1.0 outputs are not in the desired off state during and directly after boot
+
+To solve these issues the Raspberry Pi can be configured via config.txt.
+With adding `dtoverlay=spi0-0cs` to the config.txt you can disable the hardware CE pins for SPI 0, freeing up GPIO 7 and 8
+making Output 2 and 3 freely usabel.
+With `gpio=25,7,8,12,16,20,21=op,dh` in the config.txt we set all pins controlling powered outputs to output and pull them high
+as early as possible to disable the outputs. During power on there might be less than a second where the outputs might be enabled.
+
+
+## Full config.txt additions for this board
+
+```
+# Enable SPI
+dtparam=spi=on
+# Enable 1-Wire
+dtoverlay=w1-gpio,gpiopin=4
+# Enable RTC
+dtparam=i2c_arm=on
+dtoverlay=i2c-rtc,ds3231
+# Disable SPI0 CE pins
+dtoverlay=spi0-0cs
+# Disable outputs on boot
+gpio=25,7,8,12,16,20,21=op,dh
+```
