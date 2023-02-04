@@ -1,0 +1,6 @@
+[book]
+authors = ["Till Klocke"]
+language = "en"
+multilingual = false
+src = "src"
+title = "CraftBeerPi Hat"
