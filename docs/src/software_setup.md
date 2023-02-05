@@ -36,7 +36,7 @@ dtoverlay=spi0-0cs
 ```
 
 We need to disable the chip enable pins of the SPI0 bus, because they would only support 2 devices and
-this board supports up to 5 MAX31865. The GPIO formerly used us chip enable are used to control output
+this board supports up to 5 MAX31865. The GPIO formerly used as chip enable are used to control output
 2 and 3.
 
 When configuring the MAX31865 modules in CraftBeerPi you need to specify the chip enable pin for each
@@ -56,7 +56,7 @@ pin:
 
 The digital outputs are controlled by GPIO pins. Please note that the outputs are inverted, meaning that if
 the GPIO is high the output is disabled and vice versa. To bring the GPIO pins controlling the outputs as soon
-as possible on a defined high state and therefore disabling the outputs during boot please add the following
+as possible in a defined high state and therefore disabling the outputs during boot please add the following
 line to your `config.txt`
 
 ```
