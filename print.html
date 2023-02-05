@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="hardware_setup.html"><strong aria-hidden="true">2.</strong> Hardware Setup</a></li><li class="chapter-item expanded "><a href="software_setup.html"><strong aria-hidden="true">3.</strong> Software Setup</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="Introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="hardware_setup.html"><strong aria-hidden="true">2.</strong> Hardware Setup</a></li><li class="chapter-item expanded "><a href="software_setup.html"><strong aria-hidden="true">3.</strong> Software Setup</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -143,6 +143,23 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<p>This CraftBeerPi Hat is mainly intended for brewery automation. It can be used for other use cases
+involving digital outputs and sensor inputs, however this is out of scope of this project.
+The hat should be compatible with other Single Board Computer systems following the 40 pin GPIO
+layout introduced by the Raspberry Pi, but this is not guaranteed and untested.</p>
+<p>The Hat has currently the following features:</p>
+<ul>
+<li>Input voltage of 12V - 24V</li>
+<li>DC-DC converter to power the Raspberry Pi from input voltage</li>
+<li>Reverse voltage protection on input</li>
+<li>Digital outputs operate on input voltage and provide up to 1 amp of output current</li>
+<li>Digital outputs are secured by flyback diode to be able to switch inductive loads</li>
+<li>Digital outputs are secured by a PTC resettable fuse to protect from over currents</li>
+<li>RTC for the Raspberry Pi</li>
+<li>OneWire connector to add additional sensors</li>
+<li>Possibility to mount a QWIIC connector for additional sensors and actors</li>
+<li>5 slots for MAX31865 PT100/PT1000 converter</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="hardware-setup"><a class="header" href="#hardware-setup">Hardware Setup</a></h1>
 <p>The board itself has been designed with ease of use in mind. However certain things need
 to be considered.</p>
