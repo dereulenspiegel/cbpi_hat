@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "eup3453wir1")(type "KiCad")(uri "${KIPRJMOD}/../library/eup3453wir1.kicad_sym")(options "")(descr ""))
+  (lib (name "smbj5.0ca-tp")(type "KiCad")(uri "/Users/till/Development/git-repos/cbpi-hat/kicad/library/smbj5.0ca-tp.kicad_sym")(options "")(descr ""))
+)
