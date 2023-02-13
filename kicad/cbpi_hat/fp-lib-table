@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "SMMS1050-330M")(type "KiCad")(uri "${KIPRJMOD}/../library/SMMS1050-330M.pretty")(options "")(descr ""))
+)
