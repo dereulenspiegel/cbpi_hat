@@ -1,122 +1,68 @@
-(kicad_symbol_lib
-  (version 20211014)
-  (generator https://github.com/uPesy/easyeda2kicad.py)
-  (symbol "EUP3453WIR1"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 13.97 0)
-      (effects (font (size 1.27 1.27) ) )
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "EUP3453WIR1" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 13.97 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property
-      "Value"
-      "EUP3453WIR1"
-      (id 1)
-      (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27) ) )
+    (property "Value" "EUP3453WIR1" (id 1) (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property
-      "Footprint"
-      "eup3453wir1:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP3.1"
-      (id 2)
-      (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27) ) hide)
+    (property "Footprint" "eup3453wir1:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP3.1" (id 2) (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/_Eutech-Microelectronics-EUP3453WIR1_C311687.html"
-      (id 3)
-      (at 0 -13.97 0)
-      (effects (font (size 1.27 1.27) ) hide)
+    (property "Datasheet" "https://lcsc.com/product-detail/_Eutech-Microelectronics-EUP3453WIR1_C311687.html" (id 3) (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property
-      "Manufacturer"
-      "EUTECH(德信)"
-      (id 4)
-      (at 0 -16.51 0)
-      (effects (font (size 1.27 1.27) ) hide)
+    (property "Manufacturer" "EUTECH(德信)" (id 4) (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property
-      "LCSC Part"
-      "C311687"
-      (id 5)
-      (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27) ) hide)
+    (property "LCSC Part" "C311687" (id 5) (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property
-      "JLC Part"
-      "Extended Part"
-      (id 6)
-      (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27) ) hide)
+    (property "JLC Part" "Extended Part" (id 6) (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "EUP3453WIR1_0_1"
-      (rectangle
-        (start -11.43 6.35)
-        (end 11.43 -6.35)
+      (rectangle (start -11.43 6.35) (end 11.43 -6.35)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (circle
-        (center -10.92 5.84)
-        (radius 0.38)
+      (circle (center -10.92 5.84) (radius 0.38)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (pin unspecified line
-        (at -13.97 3.81 0)
-        (length 2.54)
+      (pin input line (at -13.97 3.81 0) (length 2.54)
         (name "BST" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
-        (at -13.97 1.27 0)
-        (length 2.54)
+      (pin power_in line (at -13.97 1.27 0) (length 2.54)
         (name "VIN" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
-        (at -13.97 -1.27 0)
-        (length 2.54)
+      (pin input line (at -13.97 -1.27 0) (length 2.54)
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
-        (at -13.97 -3.81 0)
-        (length 2.54)
+      (pin power_in line (at -13.97 -3.81 0) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
-        (at 13.97 -3.81 180)
-        (length 2.54)
+      (pin input line (at 13.97 -3.81 180) (length 2.54)
         (name "FB" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
-        (at 13.97 -1.27 180)
-        (length 2.54)
+      (pin input line (at 13.97 -1.27 180) (length 2.54)
         (name "COMP2" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
-        (at 13.97 1.27 180)
-        (length 2.54)
+      (pin input line (at 13.97 1.27 180) (length 2.54)
         (name "OCSET" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
-        (at 13.97 3.81 180)
-        (length 2.54)
+      (pin input line (at 13.97 3.81 180) (length 2.54)
         (name "OVEN" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
-        (at 0.00 8.89 270)
-        (length 2.54)
+      (pin unspecified line (at 0 8.89 270) (length 2.54)
         (name "PAD" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
