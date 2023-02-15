@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name "SMMS1050-330M")(type "KiCad")(uri "${KIPRJMOD}/../library/SMMS1050-330M.pretty")(options "")(descr ""))
+  (lib (name "eup3453wir1")(type "KiCad")(uri "${KIPRJMOD}/../library/eup3453wir1.pretty")(options "")(descr ""))
+  (lib (name "hy15p03c2")(type "KiCad")(uri "${KIPRJMOD}/../library/hy15p03c2.pretty")(options "")(descr ""))
+  (lib (name "smbj5.0ca-tp")(type "KiCad")(uri "${KIPRJMOD}/../library/smbj5.0ca-tp.pretty")(options "")(descr ""))
 )
