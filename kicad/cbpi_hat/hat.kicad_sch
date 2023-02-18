@@ -1841,7 +1841,6 @@
     )
   )
 
-
   (junction (at 342.9 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 029d4e8d-c3b4-4898-9cc5-f84e9f687171)
   )
@@ -2579,6 +2578,11 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 7645e45b-ebbd-4531-92c9-9c38081bbf8d)
   )
+  (polyline (pts (xy 187.96 76.2) (xy 120.65 76.2))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 764c5432-7e0f-49fd-9bbc-3ee00f79340e)
+  )
+
   (wire (pts (xy 516.89 53.34) (xy 525.78 53.34))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7664ac12-bb0f-49c2-81e9-bc43604b7822)
@@ -2691,6 +2695,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8ee84613-d833-42db-b82a-e60ce0654d70)
   )
+  (polyline (pts (xy 187.96 17.78) (xy 187.96 76.2))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 8f1b7528-6032-4102-bf92-4a83eb23f90c)
+  )
+
   (wire (pts (xy 93.98 172.72) (xy 93.98 175.26))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 8fcb2962-2812-4d94-b7ba-a3af9613255a)
@@ -2901,6 +2910,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cd2afc29-f0ac-4eaf-97d3-a9e8d1637259)
   )
+  (polyline (pts (xy 120.65 17.78) (xy 120.65 76.2))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d0316b22-0836-42a1-af6a-54cb3db563d2)
+  )
+
   (wire (pts (xy 342.9 25.4) (xy 342.9 41.91))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d05141c5-e534-41bf-8fe9-80d877fecdf0)
@@ -2966,6 +2980,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid daf3dd57-93c8-4ee8-a275-277f1220c4e8)
   )
+  (polyline (pts (xy 120.65 17.78) (xy 187.96 17.78))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid dafb781f-f11c-4300-aaf0-bac7127e9ed5)
+  )
+
   (wire (pts (xy 76.2 68.58) (xy 76.2 80.01))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid ddb5ec2a-613c-4ee5-b250-77656b088e84)
@@ -3122,6 +3141,10 @@
     (at 16.51 193.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8714082a-55fe-4a29-9d48-99ae1ef73073)
+  )
+  (text "RTC" (at 185.42 73.66 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b20b3ab1-2304-4b9d-bd8f-3da05f0b1f32)
   )
   (text "Backpower protection\n(see https://github.com/raspberrypi/hats/blob/master/zvd-circuit.png)"
     (at 278.13 74.93 180)
