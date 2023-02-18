@@ -402,6 +402,7 @@
         "microvia_drill": 0.1,
         "name": "Power_3A",
         "nets": [
+          "+5VD",
           "/PWR_5V_SW_OUT"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",

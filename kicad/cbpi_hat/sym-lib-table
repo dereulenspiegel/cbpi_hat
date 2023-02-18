@@ -2,4 +2,6 @@
   (lib (name "eup3453wir1")(type "KiCad")(uri "${KIPRJMOD}/../library/eup3453wir1.kicad_sym")(options "")(descr ""))
   (lib (name "smbj5.0ca-tp")(type "KiCad")(uri "${KIPRJMOD}/../library/smbj5.0ca-tp.kicad_sym")(options "")(descr ""))
   (lib (name "hy15p03c2")(type "KiCad")(uri "${KIPRJMOD}/../library/hy15p03c2.kicad_sym")(options "")(descr ""))
+  (lib (name "dmg2305ux")(type "KiCad")(uri "${KIPRJMOD}/../library/dmg2305ux.kicad_sym")(options "")(descr ""))
+  (lib (name "dmmt5401-f-7")(type "KiCad")(uri "${KIPRJMOD}/../library/dmmt5401-f-7.kicad_sym")(options "")(descr ""))
 )
