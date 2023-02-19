@@ -6,4 +6,5 @@
   (lib (name "dmg2305ux")(type "KiCad")(uri "${KIPRJMOD}/../library/dmg2305ux.pretty")(options "")(descr ""))
   (lib (name "dmmt5401-f-7")(type "KiCad")(uri "${KIPRJMOD}/../library/dmmt5401-f-7.pretty")(options "")(descr ""))
   (lib (name "cr2032-bs-6-1")(type "KiCad")(uri "${KIPRJMOD}/../library/cr2032-bs-6-1.pretty")(options "")(descr ""))
+  (lib (name "cr2032-bs-5-1")(type "KiCad")(uri "${KIPRJMOD}/../library/cr2032-bs-5-1.pretty")(options "")(descr ""))
 )

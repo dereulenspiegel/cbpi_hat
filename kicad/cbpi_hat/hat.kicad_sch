@@ -3809,7 +3809,7 @@
     (property "Value" "Battery_Cell" (id 1) (at 130.81 48.7679 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "cr2032-bs-6-1:BAT-TH_CR2032-BS-6-1" (id 2) (at 127 48.006 90)
+    (property "Footprint" "cr2032-bs-5-1:BAT-TH_CR2032-BS-5-1" (id 2) (at 127 48.006 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 127 48.006 90)
@@ -4770,7 +4770,7 @@
       (reference "#PWR0114") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/4c443932-87d8-4252-a612-8cadafc00eb7"
-      (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "cr2032-bs-6-1:BAT-TH_CR2032-BS-6-1")
+      (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "cr2032-bs-5-1:BAT-TH_CR2032-BS-5-1")
     )
     (path "/0f7872a7-de47-41d5-a21f-9934102d3a5f"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
